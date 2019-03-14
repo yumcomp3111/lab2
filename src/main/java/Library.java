@@ -5,6 +5,8 @@ import lab2.exl.Book;
  */
 public class Library {
 	public static void main(String arg[]) {
+		lab2.ex2.UIApplication.run(arg);
+		
 		final String array[] = {"Basic Java", "Advance Java", "Forget about Java"};
 		Book b = new Book(array);
 		System.out.println("The title of chapter 1 is " + b.getChapter(1));

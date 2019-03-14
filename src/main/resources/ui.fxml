@@ -6,11 +6,12 @@
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lab3.ex2.Lab3Controller">
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lab2.ex2.Lab3Controller">
   <children>
     <MenuBar VBox.vgrow="NEVER">
       <menus>
@@ -60,6 +61,7 @@
         </Label>
             <Button fx:id="button1" layoutX="141.0" layoutY="81.0" mnemonicParsing="false" onAction="#buttonPressed" text="hit me" />
             <Label fx:id="label1" layoutX="306.0" layoutY="85.0" text="Hi" />
+            <TextField fx:id="textfield1" layoutX="115.0" layoutY="28.0" />
       </children>
     </AnchorPane>
   </children>
